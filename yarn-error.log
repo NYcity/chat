@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\V\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init -
+
+PATH: 
+  Z:\VMware17\bin\;C:\Program Files\Eclipse Adoptium\jdk-11.0.20.8-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;E:\Go\bin;E:\AndroidSDK\platform-tools;E:\AndroidSDK\tools;E:\Python\Python311\Scripts\;E:\Python\Python311\;C:\Users\V\AppData\Local\Microsoft\WindowsApps;C:\Users\V\AppData\Local\Programs\Microsoft VS Code\bin;E:\php-8.2.8-nts-Win32-vs16-x64;E:\apache-maven-3.9.3\bin;C:\Users\V\AppData\Roaming\npm;E:\Android\SDK\platform-tools;E:\kube;E:\minikube;E:\openssl-0.9.8k_X64\bin;C:\Users\V\go\bin;E:\jdk-11.0.0.1\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\V\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:514:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+      at ReadStream.emit (node:events:514:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:514:28)
+      at addChunk (node:internal/streams/readable:343:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
